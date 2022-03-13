@@ -59,7 +59,7 @@ const airlines = {
      * @param {string} airport - selected airport
      */
     function (airport: string) {
-      const connectionsFound = [];
+      const connectionsFound: { dest: string; line: string[] }[] = [];
       for (const connected of airlines.connections) {
         const [airport1, airport2] = connected;
         if (airport1 === airport) {
