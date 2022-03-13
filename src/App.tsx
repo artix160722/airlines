@@ -7,7 +7,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<AirlineSearch />} />
-        <Route path="*" />
       </Routes>
     </BrowserRouter>
   );
