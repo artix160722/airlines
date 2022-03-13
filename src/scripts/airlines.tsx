@@ -72,7 +72,7 @@ const airlines = {
     },
   findAirline:
     /**
-     * search for shortest airline connection between passed airports or null if not found
+     * search for shortest airline connection between passed airports or return null if not found
      * @param {string} airportA - departure airport
      * @param {string} airportB - arrival airport
      */
